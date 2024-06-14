@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*-------------------------------------header-------------------------------------*/
+
+.container-header {
+  height: 13vh;
+  border-bottom: 3px solid rgb(245, 247, 248);
+  box-shadow: 0px 0px 5px 0px black;
+  background-image: url(src/img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-flex {
+  display: flex;
+}
+
+.container-header img {
+  width: 100%;
+  height: 14.1vh;
+  margin-left: 50%;
+  border-bottom: 7px solid rgb(83, 198, 243);
+}
+
+.container-header nav#menu {
+  margin-left: 200px;
+}
+
+.container-header nav#menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 4%;
+}
+
+.container-header nav#menu a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 15px;
+  padding: 33px 10px;
+  transition: 1s;
+}
+
+.container-header nav#menu a:hover {
+  background-color: #ffffffc0;
+  padding: 35px 10px;
+  color: rgb(1, 71, 117);
+  border-bottom: 7px solid rgb(83, 198, 243);
+}
+
+.container-header section.btn {
+  margin-left: 10px;
+  margin-top: 2.2%;
+}
+
+.container-header section.btn a {
+  gap: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container-header section.btn i {
+  margin-left: 6px;
+}
+
+.container-header section.btn i:hover {
+  margin-left: 6px;
+  color: rgb(1, 71, 117);
+}
+
+/*----------------------------------title---------------------------------*/
+
+.title-flex {
+  display: flex;
+}
+
+.title {
+  margin-top: 45px;
+  margin-left: 150px;
+  margin-top: 10%;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #023875;
+  margin-top: 45px;
+  border-bottom: 5px solid rgb(83, 198, 243);
+  width: 35%;
+  box-shadow: 0px 1px 0px 0px #fff;
+}
+
+.title p {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #023875;
+  margin-top: 30px;
+}
+
+.container-title .perfil img {
+  max-width: 72%;
+}
+
+.container-title {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-image: url(https://media.cakeresume.com/image/upload/v1625287938/flm2as98eualphrmus6y.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.container-title button#discover-now {
+  color: #fff;
+  font-weight: 700;
+  width: 32%;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+  background: linear-gradient(rgb(3, 85, 117), #050505);
+  cursor: pointer;
+}
+
+.container-title button#discover-now:hover {
+  background-image: url(src/img/header.jpg);
+  background-size: cover;
+}
+
+.container-title button#catalog {
+  color: #fff;
+  background: linear-gradient(rgb(3, 85, 117), #050505);
+  width: 32%;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container-title button#catalog:hover {
+  background-image: url(src/img/header.jpg);
+  background-size: cover;
+}
+
+/*---------------------------------footer--------------------------------*/
+
+.container-footer-flex {
+  background-color: #fff;
+  display: flex;
+  font-size: 15px;
+  gap: 30px;
+  border-style: 5px solid blue;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 0.1;
+}
+
+.container-footer-flex h4 {
+  border-left: 5px solid rgb(83, 198, 243);
+  color: #5c5b5b;
+  height: 5vh;
+  padding: 15px;
+}
+
+.container-footer-flex h1 {
+  border-left: 5px solid rgb(83, 198, 243);
+  height: 7vh;
+  padding: 15px;
+}
+
+.container-footer-flex p {
+  margin-top: 15px;
+  color: #5c5b5b;
+}
+
+/*---------------------------------menu-mobile-----------------------*/
+
+i#burguer {
+  display: none;
+}
+
+#itens {
+  display: none;
+}
+
+.logo-mobile {
+  display: none;
+}
